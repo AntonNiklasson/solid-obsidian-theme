@@ -1,0 +1,58 @@
+// Hide plugins icons
+.workspace-ribbon {
+	display: none;
+}
+
+// Fade inactive sidebar panes
+.workspace-leaf {
+	opacity: 0.5;
+	border: none;
+
+	&.mod-active {
+		opacity: 1;
+		border: none;
+	}
+}
+
+/*
+ * Files & Folders
+ */
+.nav-header {
+	padding: 0.5em;
+
+	.nav-buttons-container {
+		justify-content: flex-end;
+		gap: 0.5em;
+	}
+
+	.nav-action-button {
+		padding: 0;
+		margin: 0;
+
+		svg {
+			width: 14px;
+			height: 14px;
+		}
+	}
+}
+.nav-folder {
+	// Hide the root folder name
+	&.mod-root {
+		& > .nav-folder-title {
+			display: none;
+		}
+	}
+
+	.nav-folder-title {
+		font-weight: bold;
+	}
+}
+.nav-file {
+	&.has-focus {
+		border: none !important;
+	}
+	.nav-file-title.is-active {
+		background: var(--background-secondary-alt);
+		border-radius: none;
+	}
+}

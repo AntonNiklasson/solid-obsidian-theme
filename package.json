@@ -1,0 +1,24 @@
+{
+	"name": "plain-obsidian-theme",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon -w src -e .scss -x \"yarn build && ./scripts/copy.js\"",
+		"build": "parcel build src/index.scss",
+		"copy": "mv dist/index.css vault-path-placeholder/.obsidian/themes",
+		"lint": "prettier --check src",
+		"lint:fix": "prettier --write src"
+	},
+	"dependencies": {
+		"fs-extra": "^10.1.0",
+		"parcel-bundler": "^1.12.5"
+	},
+	"devDependencies": {
+		"esm": "^3.2.25",
+		"execa": "^6.1.0",
+		"nodemon": "^2.0.19",
+		"prettier": "^2.7.1",
+		"prettier-plugin-stylus": "^0.0.1-beta.3"
+	}
+}

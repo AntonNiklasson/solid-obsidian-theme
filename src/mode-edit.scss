@@ -1,0 +1,37 @@
+// Headings
+.HyperMD-header {
+	color: var(--text-normal);
+	font-weight: 500;
+
+	&.HyperMD-header-1 {
+		font-size: 3.3em;
+	}
+	&.HyperMD-header-2 {
+		font-size: 2.8rem;
+	}
+	&.HyperMD-header-3 {
+		font-size: 2.1rem;
+	}
+	&.HyperMD-header-4 {
+		font-size: 1.9rem;
+	}
+	&.HyperMD-header-5 {
+		font-size: 1.6rem;
+	}
+	&.HyperMD-header-6 {
+		font-size: 1.3rem;
+	}
+}
+
+// Links
+.cm-internal-link {
+	font-weight: bold;
+}
+
+// Code
+span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+	display: inline-block;
+	padding: 2px;
+	color: var(--text-muted);
+	background-color: var(--background-secondary-alt);
+}

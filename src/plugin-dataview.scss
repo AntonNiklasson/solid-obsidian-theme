@@ -1,0 +1,34 @@
+.block-language-dataview {
+	margin: 0.5em 0;
+
+	table {
+		margin: 0;
+		border: none;
+		background: var(--background-secondary);
+		border-radius: 2px;
+
+		thead {
+			.table-view-th {
+				border: none;
+				border-bottom: 2px solid var(--background-primary);
+				font-size: 0.8em;
+				font-weight: 500;
+			}
+
+			.dataview.small-text {
+				margin-left: 1em;
+				font-size: 0.7em;
+				color: var(--text-faint);
+
+				&::before,
+				&::after {
+					content: "";
+				}
+			}
+		}
+
+		tbody {
+			font-size: 0.9em;
+		}
+	}
+}

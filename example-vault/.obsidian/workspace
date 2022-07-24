@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "0a4c2d2312547000",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cf1bb8f1279cc63",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "typography.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b6f6ff75098d7845",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d8a9e29759d187c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0b720ad2ad2b782",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bd35e8b429d576bc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 316.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "780367b7e6ddc6fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f475a159f593deff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f896e83837da07d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "typography.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46f407b5cb5bc589",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "typography.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4ba29d41ab60fb93",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "07507690a5899630",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "typography.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9cf1bb8f1279cc63",
+  "lastOpenFiles": [
+    "07 Templates/People.md",
+    "07 Templates/Note.md",
+    "07 Templates/Project note.md",
+    "<%tp.date.now(\"YYYY-MM-DD\")%>.md",
+    "07 Templates/Call note.md",
+    "07 Templates/Daily note.md",
+    "07 Templates/Meeting note.md",
+    "Untitled 1.md",
+    "Readme.md",
+    "Untitled.md"
+  ]
+}

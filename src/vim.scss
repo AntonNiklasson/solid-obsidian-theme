@@ -1,0 +1,12 @@
+.ͼo.cm-focused .cm-fat-cursor {
+	background: var(--text-normal);
+	color: var(--background-primary);
+}
+
+.ͼo:not(.cm-focused) .cm-fat-cursor {
+	outline: 2px solid var(--text-normal);
+}
+
+.cm-line.cm-active {
+	background: var(--background-secondary);
+}
