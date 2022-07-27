@@ -30,3 +30,29 @@
 		font-size: 1.2rem;
 	}
 } */
+
+/*
+ * Links
+ */
+.markdown-source-view {
+	a.internal-link {
+		color: var(--text-accent);
+
+		&:hover {
+			color: var(--text-accent-hover);
+		}
+	}
+
+	span.cm-hmd-internal-link {
+		border-bottom: 2px solid transparent;
+		transition: all 200ms;
+		&:hover {
+			color: var(--text-accent-hover);
+			text-decoration: none;
+			border-bottom-color: var(--text-accent-hover);
+		}
+		span.cm-underline {
+			text-decoration: none;
+		}
+	}
+}

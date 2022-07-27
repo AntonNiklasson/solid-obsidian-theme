@@ -29,6 +29,23 @@
 
 		tbody {
 			font-size: 0.9em;
+
+			tr {
+				transition: background 200ms;
+				&:hover {
+					background: var(--background-primary);
+				}
+			}
+			td {
+				padding: 0.5em;
+				:hover {
+					background: none;
+				}
+			}
 		}
+	}
+
+	a.internal-link {
+		text-decoration: none;
 	}
 }

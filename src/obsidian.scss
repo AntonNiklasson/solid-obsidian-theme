@@ -1,3 +1,12 @@
+.modal.mod-settings {
+	width: 90vw;
+	max-width: 1200px;
+}
+
+.modal-bg {
+	backdrop-filter: blur(3px);
+}
+
 // Hide plugins icons
 .workspace-ribbon {
 	display: none;
@@ -10,6 +19,10 @@
 
 	&.mod-active {
 		opacity: 1;
+		border: none;
+	}
+
+	&.mod-active .view-header {
 		border: none;
 	}
 }
@@ -54,5 +67,24 @@
 	.nav-file-title.is-active {
 		background: var(--background-secondary-alt);
 		border-radius: none;
+	}
+}
+
+/*
+ * Settings
+*/
+.setting-item {
+	button {
+		transition: background 200ms;
+		border-radius: 8px;
+		font-weight: bold;
+		font-size: 0.75em;
+
+		&.mod-cta {
+			background: linear-gradient(to left, orange, darkorange);
+			&:hover {
+				background: linear-gradient(darkorange, darkorange);
+			}
+		}
 	}
 }

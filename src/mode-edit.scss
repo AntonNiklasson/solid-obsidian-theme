@@ -35,3 +35,12 @@ span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian
 	color: var(--text-muted);
 	background-color: var(--background-secondary-alt);
 }
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+
+	th:not([align]) {
+		text-align: left;
+	}
+}
