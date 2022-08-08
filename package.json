@@ -1,6 +1,6 @@
 {
-	"name": "plain-obsidian-theme",
-	"version": "1.0.0",
+	"name": "solid-obsidian-theme",
+	"version": "0.1.0",
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
