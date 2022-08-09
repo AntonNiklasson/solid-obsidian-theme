@@ -14,11 +14,9 @@
 
 // Fade inactive sidebar panes
 .workspace-leaf {
-	opacity: 0.5;
 	border: none;
 
 	&.mod-active {
-		opacity: 1;
 		border: none;
 	}
 
