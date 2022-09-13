@@ -1,11 +1,12 @@
 .theme-dark {
 	color-scheme: dark;
-	--background-primary: #0c0d0f;
+	--background-primary: #080808;
 	--background-primary-rgb: 0 0 0;
-	--background-primary-alt: #030303;
-	--background-secondary: #111111;
-	--background-secondary: #1a1a1a;
-	--background-secondary-alt: #151515;
+	--background-primary-alt: #0a0a0a;
+
+	--background-secondary: black;
+	--background-secondary-alt: #080808;
+
 	--background-modifier-border: #555;
 	--background-modifier-form-field: rgba(0, 0, 0, 0.3);
 	--background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
@@ -16,6 +17,7 @@
 	--background-modifier-error-rgb: 61 0 0;
 	--background-modifier-error-hover: #470000;
 	--background-modifier-cover: rgba(0, 0, 0, 0.8);
+
 	--text-accent: #0c63cc;
 	--text-accent-hover: #04438f;
 	--text-normal: #ffffff;
@@ -28,14 +30,17 @@
 	--text-highlight-bg-active: rgba(255, 128, 0, 0.4);
 	--text-selection: #aaa;
 	--text-on-accent: #111111;
+
 	--interactive-normal: #2a2a2a;
 	--interactive-hover: #303030;
 	--interactive-accent: lime;
 	--interactive-accent-rgb: 72 54 153;
 	--interactive-accent-hover: green;
 	--interactive-success: #197300;
+
 	--scrollbar-active-thumb-bg: red;
 	--scrollbar-bg: green;
 	--scrollbar-thumb-bg: blue;
+
 	--highlight-mix-blend-mode: lighten;
 }

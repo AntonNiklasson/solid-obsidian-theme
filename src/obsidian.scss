@@ -25,6 +25,31 @@
 	}
 }
 
+// Simplify the file header
+.view-header {
+	height: unset;
+	padding: 0.5em 0;
+
+	.view-header-icon {
+		display: none;
+	}
+
+	.view-header-title-container {
+		padding: 0 1em;
+	}
+
+	.view-actions {
+		padding: 0 1em;
+
+		.mod-close-leaf {
+			display: none;
+		}
+		.view-action[aria-label*="Current view"] {
+			display: none;
+		}
+	}
+}
+
 /*
  * Files & Folders
  */

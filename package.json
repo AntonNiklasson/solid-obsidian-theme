@@ -4,8 +4,8 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"dev": "nodemon -w src -e .scss -x \"yarn build && ./scripts/copy.js\"",
-		"build": "parcel build src/index.scss",
+		"dev": "nodemon -w src -e .scss -x \"yarn build && cp dist/solid.css example-vault/.obsidian/themes/solid.css\"",
+		"build": "parcel build src/index.scss -o solid.css",
 		"copy": "mv dist/index.css vault-path-placeholder/.obsidian/themes",
 		"lint": "prettier --check src",
 		"lint:fix": "prettier --write src"
